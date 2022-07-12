@@ -37,8 +37,8 @@ export function Layout({ children }) {
           <span><Link href="/community">Community</Link></span>
           <span><Link href="/media">Media</Link></span>
           <span><Link href="/faq">FAQ</Link></span>
-          <span >
-            <a className="nav-icon" href="https://mobile.twitter.com/zodiacprotocol" target="_blank" rel="noopener noreferrer">
+          <span className="nav-icon">
+            <a href="https://mobile.twitter.com/zodiacprotocol" target="_blank" rel="noopener noreferrer">
               <TwitterLogo />
             </a>
           </span>
