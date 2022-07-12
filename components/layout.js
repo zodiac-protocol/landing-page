@@ -2,8 +2,6 @@ import Link from 'next/link'
 import TwitterLogo from './twitter.svg'
 import DiscordLogo from './discord.svg'
 import TelegramLogo from './telegram.svg'
-import Image from 'next/image'
-console.log(TwitterLogo)
 
 const LOGO = <svg className="zodiac-logo" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none" fill="none"
   xmlns="http://www.w3.org/2000/svg">
