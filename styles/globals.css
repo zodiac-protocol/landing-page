@@ -4,6 +4,9 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #111;
+  color: #eee;
+  font-size: 16px;
 }
 
 a {
@@ -13,4 +16,21 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+div:hover {
+  box-shadow: 0 0 1px red;
+}
+
+.zodiac-logo {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.zodiac-logo path {
+  fill: transparent;
+  stroke: rgba(132, 86, 247, 0.8);
+  stroke-width: 26px;
+  stroke-linecap: round;
 }
