@@ -1,17 +1,9 @@
 import Link from 'next/link'
+import Logo from './logo.svg'
 import TwitterLogo from './twitter.svg'
 import DiscordLogo from './discord.svg'
 import TelegramLogo from './telegram.svg'
 
-const LOGO = <svg className="zodiac-logo" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none" fill="none"
-  xmlns="http://www.w3.org/2000/svg">
-  <path d="M 85 15
-          L 15 85" style={{ strokeOpacity: 0.8 }} />
-  <path d="M 15 15
-          L 85 15" />
-  <path d="M 15 85
-          L 85 85" />
-</svg>
 
 
 export function Footer() {
@@ -31,7 +23,7 @@ export function Layout({ children }) {
     <div className="app">
       <div className="header">
         <div className="navbar-left">
-          <Link href="/">{LOGO}</Link>
+          <Link href="/"><Logo className="zodiac-logo" width="100%" height="100%" /></Link>
         </div>
         <div className="navbar-right">
           <span><Link href="/community">Community</Link></span>
