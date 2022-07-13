@@ -37,8 +37,16 @@ export function Layout({ children }) {
           <span><Link href="/community">Community</Link></span>
           <span><Link href="/media">Media</Link></span>
           <span><Link href="/faq">FAQ</Link></span>
-          <span className="nav-icon"><TwitterLogo /></span>
-          <span className="nav-icon"><TelegramLogo /></span>
+          <span className="nav-icon">
+            <a href="https://mobile.twitter.com/zodiacprotocol" target="_blank" rel="noopener noreferrer">
+              <TwitterLogo />
+            </a>
+          </span>
+          <span className="nav-icon">
+            <a href="https://t.me/Zodiac_Protocol_Announcements" target="_blank" rel="noopener noreferrer">
+              <TelegramLogo />
+            </a>
+          </span>
           <span className="nav-icon"><DiscordLogo /></span>
           <button className="btn">Launch App</button>
         </div>
