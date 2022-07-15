@@ -3,20 +3,7 @@ import Logo from './logo.svg'
 import TwitterLogo from './twitter.svg'
 import DiscordLogo from './discord.svg'
 import TelegramLogo from './telegram.svg'
-
-
-
-export function Footer() {
-  return (
-    <footer className="footer">
-      About Us
-      Twitter
-      Telegram
-      Discord
-      Media
-    </footer>
-  )
-}
+import { Footer } from './footer'
 
 export function Layout({ children }) {
   return (
