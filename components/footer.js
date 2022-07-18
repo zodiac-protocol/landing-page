@@ -17,7 +17,9 @@ export function Footer() {
             <a href="https://t.me/Zodiac_Protocol_Announcements" target="_blank" rel="noopener noreferrer">
                 <TelegramLogo />
             </a>
-            <DiscordLogo />
+            <a href="https://discord.com/invite/feJtwxdvsQ" target="_blank" rel="noopener noreferrer">
+                <DiscordLogo />
+            </a>            
         </footer>
     )
 }

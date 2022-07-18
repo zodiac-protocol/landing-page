@@ -26,7 +26,11 @@ export function Layout({ children }) {
               <TelegramLogo />
             </a>
           </span>
-          <span className="nav-icon"><DiscordLogo /></span>
+          <span className="nav-icon">
+            <a href="https://discord.com/invite/feJtwxdvsQ" target="_blank" rel="noopener noreferrer">
+              <DiscordLogo />
+            </a>
+          </span>
           <button className="btn">Launch App</button>
         </div>
       </div>
