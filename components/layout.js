@@ -4,6 +4,7 @@ import TwitterLogo from './twitter.svg'
 import DiscordLogo from './discord.svg'
 import TelegramLogo from './telegram.svg'
 import { Footer } from './footer'
+import { SOCIAL_LINKS } from '../constants/links';
 
 export function Layout({ children }) {
   return (
@@ -17,17 +18,17 @@ export function Layout({ children }) {
           <span><Link href="/media">Media</Link></span>
           <span><Link href="/faq">FAQ</Link></span>
           <span className="nav-icon">
-            <a href="https://mobile.twitter.com/zodiacprotocol" target="_blank" rel="noopener noreferrer">
+            <a href={SOCIAL_LINKS.TWITTER} target="_blank" rel="noopener noreferrer">
               <TwitterLogo />
             </a>
           </span>
           <span className="nav-icon">
-            <a href="https://t.me/Zodiac_Protocol_Announcements" target="_blank" rel="noopener noreferrer">
+            <a href={SOCIAL_LINKS.TELEGRAM} target="_blank" rel="noopener noreferrer">
               <TelegramLogo />
             </a>
           </span>
           <span className="nav-icon">
-            <a href="https://discord.com/invite/feJtwxdvsQ" target="_blank" rel="noopener noreferrer">
+            <a href={SOCIAL_LINKS.DISCORD} target="_blank" rel="noopener noreferrer">
               <DiscordLogo />
             </a>
           </span>
