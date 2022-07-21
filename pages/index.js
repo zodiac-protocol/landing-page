@@ -5,6 +5,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Logo className={styles.animated_logo} />
+      <div className={styles.section}>
+        Refract your liquidity
+      </div>
     </div >
   )
 }
