@@ -1,5 +1,9 @@
 .container {
   padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main {
@@ -24,7 +28,20 @@
 .animated_logo path {
   stroke-dasharray: 100;
   stroke-dashoffset: 100;
-  animation: dash 6s linear forwards infinite;
+  animation: dash 1s linear forwards;
+}
+
+.logo_container {
+  max-width: 320px;
+  max-height: 320px;
+}
+
+.header {
+  font-size: 3rem;
+}
+
+.header > span {
+  font-weight: 600;
 }
 
 @keyframes dash{
