@@ -7,8 +7,7 @@ import { SOCIAL_LINKS } from '../constants/links';
 
 export function Footer() {
     return (
-        <footer className="footer">
-            <Link href="/about">About Us</Link>
+        <footer>
             <Link href="/community">Community</Link>
             <Link href="/media">Media</Link>
             <Link href="/faq">FAQ</Link>
