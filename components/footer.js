@@ -8,7 +8,6 @@ import { SOCIAL_LINKS } from '../constants/links';
 export function Footer() {
     return (
         <footer>
-            <Link href="/about">About Us</Link>
             <Link href="/community">Community</Link>
             <Link href="/media">Media</Link>
             <Link href="/faq">FAQ</Link>
