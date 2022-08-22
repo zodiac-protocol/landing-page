@@ -17,10 +17,6 @@
   padding-right: 32px;
 }
 
-.navbar-left {
-
-}
-
 .navbar-right {
   display: flex;
   align-items: center;
@@ -29,8 +25,6 @@
 .navbar-right > * {
   margin-left: 32px;
 }
-
-.nav-icon {}
 
 .nav-icon svg {
   width: 32px;
