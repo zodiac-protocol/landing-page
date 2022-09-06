@@ -11,7 +11,7 @@ export default function Home() {
         Zodiac <span>Protocol</span>
       </div>
       <div className={styles.slogan}>
-        Earn fixed rates, leverage exposure, stack yield.
+        Obtain discounted liquidity, leverage exposure, stack yield.
         <br/>
         Unlock your capital efficiency.
       </div>
