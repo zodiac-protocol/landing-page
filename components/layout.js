@@ -1,8 +1,9 @@
 import Link from 'next/link'
 import Logo from './logo.svg'
-import TwitterLogo from './twitter.svg'
-import DiscordLogo from './discord.svg'
-import TelegramLogo from './telegram.svg'
+import TwitterLogo from './logos/twitter.svg'
+import DiscordLogo from './logos/discord.svg'
+import TelegramLogo from './logos/telegram.svg'
+import MediumLogo from './logos/medium.svg'
 import { Footer } from './footer'
 import Head from 'next/head'
 import { SOCIAL_LINKS } from '../constants/links';
@@ -36,6 +37,11 @@ export function Layout({ children }) {
               <DiscordLogo />
             </a>
           </span>
+          <span className="nav-icon">
+            <a href={SOCIAL_LINKS.MEDIUM} target="_blank" rel="noopener noreferrer">
+              <MediumLogo />
+            </a>
+          </span>          
         </div>
       </div>
       <main>{children}</main>
