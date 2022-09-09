@@ -14,6 +14,7 @@ export function Layout({ children }) {
       <Head>
         <title>Zodiac</title>
         <meta name="description" content="Open-source protocol for deconstructing LPs into principal and yield tokens." />
+        <meta name="robots" content="nofollow" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
