@@ -47,11 +47,11 @@ export function Layout({ children }) {
               <MediumLogo />
             </a>
           </span>
-          <button className="btn">
-            <a href={APP} target="_blank" rel="noopener noreferrer">
+          <a href={APP} target="_blank" rel="noopener noreferrer">
+            <button className="btn">
               Launch App
-            </a>
-          </button>                 
+              </button>
+          </a>
         </div>
       </div>
       <main>{children}</main>
