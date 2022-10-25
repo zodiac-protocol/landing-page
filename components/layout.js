@@ -6,7 +6,7 @@ import TelegramLogo from './logos/telegram.svg'
 import MediumLogo from './logos/medium.svg'
 import { Footer } from './footer'
 import Head from 'next/head'
-import { SOCIAL_LINKS } from '../constants/links';
+import { SOCIAL_LINKS, APP } from '../constants/links';
 
 export function Layout({ children }) {
   return (
@@ -44,7 +44,7 @@ export function Layout({ children }) {
             </a>
           </span>
           <button className="btn">
-            <a href="https://app.zodiacprotocol.xyz/" target="_blank" rel="noopener noreferrer">
+            <a href={APP} target="_blank" rel="noopener noreferrer">
               Launch App
             </a>
           </button>                 
