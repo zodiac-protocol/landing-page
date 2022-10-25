@@ -20,7 +20,11 @@ export function Layout({ children }) {
 
       <div className="header">
         <div className="navbar-left">
-          <Link href="/"><Logo className="zodiac-logo" width="100%" height="100%" /></Link>
+          <Link href="/">
+            <a>
+              <Logo className="zodiac-logo" width="100%" height="100%" />
+            </a>
+          </Link>
         </div>
         <div className="navbar-right">
           <span className="nav-icon">
