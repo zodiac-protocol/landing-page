@@ -42,7 +42,12 @@ export function Layout({ children }) {
             <a href={SOCIAL_LINKS.MEDIUM} target="_blank" rel="noopener noreferrer">
               <MediumLogo />
             </a>
-          </span>          
+          </span>
+          <button className="btn">
+            <a href="https://app.zodiacprotocol.xyz/" target="_blank" rel="noopener noreferrer">
+              Launch App
+            </a>
+          </button>                 
         </div>
       </div>
       <main>{children}</main>
