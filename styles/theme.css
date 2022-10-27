@@ -17,16 +17,6 @@
   height: 1.5rem;
 }
 
-.btn-clear {
-  border-color: transparent;
-  background-color: transparent;
-}
-
-.btn-clear:hover {
-  border-color: transparent;
-  background-color: #222;
-}
-
 a {
   text-decoration: none;
 }

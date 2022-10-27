@@ -6,7 +6,7 @@ import TelegramLogo from './logos/telegram.svg'
 import MediumLogo from './logos/medium.svg'
 import { Footer } from './footer'
 import Head from 'next/head'
-import { SOCIAL_LINKS } from '../constants/links';
+import { SOCIAL_LINKS, APP } from '../constants/links';
 
 export function Layout({ children }) {
   return (
@@ -20,7 +20,11 @@ export function Layout({ children }) {
 
       <div className="header">
         <div className="navbar-left">
-          <Link href="/"><Logo className="zodiac-logo" width="100%" height="100%" /></Link>
+          <Link href="/">
+            <a>
+              <Logo className="zodiac-logo" width="100%" height="100%" />
+            </a>
+          </Link>
         </div>
         <div className="navbar-right">
           <span className="nav-icon">
@@ -42,7 +46,12 @@ export function Layout({ children }) {
             <a href={SOCIAL_LINKS.MEDIUM} target="_blank" rel="noopener noreferrer">
               <MediumLogo />
             </a>
-          </span>          
+          </span>
+          <a href={APP} target="_blank" rel="noopener noreferrer">
+            <button className="btn">
+              Launch App
+              </button>
+          </a>
         </div>
       </div>
       <main>{children}</main>
